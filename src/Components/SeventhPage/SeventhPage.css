@@ -1,0 +1,42 @@
+.quotes{
+    color: var(--luxyellow);
+}
+
+@media only screen and (max-width: 600px) {
+    .seventhmaintext{
+        font-size: 20px;
+        line-height: normal;
+    }
+    .seventhsubtext{
+        font-size: 13px;
+        line-height: normal;
+        text-align: center;
+    }
+    .slidermaintext{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .seventhpage{
+        justify-content: center;
+        align-items: center;
+        gap: 12vw;
+    }
+    .svtextdiv{
+        align-items: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .svimgdiv{
+        justify-content: flex-start;
+    }
+    .slider{
+        width:10vw;
+        min-width: 90%;
+        justify-content: flex-start;
+        padding-left: 8vw;
+    }
+    .svimg{
+        height: 8vw;
+        width: 8vw;
+    }
+}

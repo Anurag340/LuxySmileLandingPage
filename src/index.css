@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --luxyellow:#D4AF36;
+  --luxgreen:#1D3C37;
+  --luxmagenta:#443850;
+  --luxdark:#2C2C2C;
+  --luxgray:#5F646A;
+  --luxmidgray:#ADB0B4;
+  --luxlightgray:#D4D9E0;
+  --luxbg:#F8F9F3;
+  --luxwhite:#FFFFFF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color:#F8F9F3;
+  scroll-behavior: smooth;
+}
+

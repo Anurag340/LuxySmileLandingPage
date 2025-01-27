@@ -1,0 +1,64 @@
+.showmorebutton{
+    background-color: var(--luxgreen);
+}
+.cards{
+    background: linear-gradient(134.26deg, #E8EDEE 0%, #FAFAFA 47.92%);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .fourthmaintext{
+        font-size: 20px;
+    }
+    .fourthmaindiv{
+        flex-direction:column;
+        align-items: center;
+    }
+    .fourthsubtext{
+        font-size: 14px;
+        width: 100%;
+        line-height: normal;
+    }
+    .textdiv{
+        justify-content: center;
+        align-items: center;
+    }
+    .fourthtextdiv{
+        width: 100%;
+        align-items: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        height: max-content;
+        margin-bottom: 3vw;
+    }
+    .fourthsub2text{
+        font-size: 18px;
+        line-height: normal;
+        text-align: center;
+    }
+    .carddiv{
+        width: 80%;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1vh;
+    }
+    .icons{
+        width: 20px;
+        height: 20px;
+    }
+    .cardmaintext{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .cardsmtext{
+        font-size: 12px;
+        line-height: normal;
+    }
+    .icondiv{
+        height: fit-content;
+        width: fit-content;
+    }
+}

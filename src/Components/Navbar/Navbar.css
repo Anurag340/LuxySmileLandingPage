@@ -1,0 +1,57 @@
+.logo{
+    background-color:#f7f7ed;
+}
+
+.contactus{
+    background-color:#1D3C37;
+}
+
+
+.navhide a:hover {
+    color: #1D3C37; /* Black text on hover */
+}
+
+.navshow button {
+    color: #1D3C37; /* Black text for menu button */
+}
+
+.navshow button:hover {
+    color: #f7f7ed; /* White text on hover */
+}
+
+.temphide a {
+    color: #1D3C37; /* Black text for dropdown links */
+}
+
+.temphide a:hover {
+    color: #f7f7ed; /* White text on hover */
+}
+
+@media only screen and (max-width: 600px) {
+    .navhide{
+        display:none;
+    }
+
+    .navshow {
+        display:block;
+    }
+    .logo{
+        width: 30%;
+        height:9vw;
+        font-size: small;
+        position: absolute;
+        left: 5%;
+        margin-top: 3vh;
+        background-color: rgb(233, 233, 217);
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    .menu{
+        font-size: 13px;
+        position: absolute;
+        right: 5%;
+        margin-top: 3vh;
+    }
+}
+

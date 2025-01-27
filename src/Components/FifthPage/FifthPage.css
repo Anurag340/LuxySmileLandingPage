@@ -1,0 +1,30 @@
+.learnmorebutton{
+    background-color: var(--luxgreen);
+}
+
+@media only screen and (max-width: 600px) {
+    .fifthmaintext{
+        font-size: 20px;
+        line-height: normal;
+    }
+    .fifthsubtext{
+        font-size: 12px;
+    }
+    .certdiv{
+        flex-direction: column;
+    }
+    .certmaintext{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .certsubtext{
+        font-size: 10px;
+        line-height: normal;
+    }
+    .imgcontainer{
+        width: 70%;
+    }
+    .learnmorebutton{
+        margin-top: 2vw;
+    }
+}

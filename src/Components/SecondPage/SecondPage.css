@@ -1,0 +1,35 @@
+
+span{
+    color: var(--luxyellow);
+}
+
+@media only screen and (max-width: 600px) {
+    .scherotext{
+        font-size: 24px;
+        line-height: normal;
+        margin-top: 10%;
+    }
+    .scsubtext{
+        font-size: 15px;
+        line-height: normal;
+        font-weight: 300;
+    }
+    .secondpage{
+        gap: 3vh;
+    }
+    .scpagebar{
+        width: 50%;
+    }
+    .heroheading{
+        font-size: 28px;
+        line-height: normal;
+    }
+    .subheading{
+        font-size: 15px;
+        line-height: normal;
+        font-weight: 300;
+    }
+    .cardcontainer{
+        gap: 5vw;
+    }
+}

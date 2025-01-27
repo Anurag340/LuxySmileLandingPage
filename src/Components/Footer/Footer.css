@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+    .footermaindiv{
+        flex-direction: column;
+    }
+    .footerscdiv{
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        min-height:max-content;
+        height: 100vh;
+    }
+    .footerlinks{
+        width: 100%;
+        gap: 6vw;
+    }
+    .footertarget{
+        display: flex;
+        width: 100%;
+        gap: 4vw;
+    }
+    .footerimg{
+        height: 5vw;
+        width: 5vw;
+    }
+    .footerctdiv{
+        width: 100%;
+    }
+    .footerbar{
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .footerlogo{
+        width: 40%;
+        height:9vw;
+        font-size: small;
+        background-color: rgb(233, 233, 217);
+    }
+}
