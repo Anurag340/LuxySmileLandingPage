@@ -1,6 +1,6 @@
 .eighthbg{
     background-image:radial-gradient(29.46% 51.56% at 31.39% 67.13%, rgba(29, 60, 55, 0) 0%, rgba(29, 60, 55, 0.8) 100%),
-    url('Images/bgimg4.png');
+    url('./Images/bgimg4.png');
 
 }
 
