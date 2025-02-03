@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 Note:
-To run the project:
+To install dependencies:
 npm i
 
 or
@@ -17,4 +17,7 @@ or
 npm install
 npm install react-icons
 
+
+To run
+npm run dev
 

@@ -26,7 +26,7 @@ const ThirdPage = () => {
   return (
     <div className='h-screen w-full flex justify-center items-center ' >
 
-        <div className= ' bgimg h-[95%] w-[97%] bg-cover bg-center rounded-3xl flex flex-col ' >
+        <div className= ' bgimg bg-[url(Images/bgimg2.png)] h-[95%] w-[97%] bg-cover bg-center rounded-3xl flex flex-col ' >
             <div className=' upperdiv flex h-[50%] w-full justify-between items-center'>
                 <div className=' textcontainer flex flex-col  items-start pl-[4vw] gap-[2vh] pt-[4vw] w-[50%] h-full text-white ' >
                     <div className=' tochange1 flex font-light justify-center items-center w-fit uppercase gap-[1vh] bg-white/10 backdrop-blur-md  p-[1vh] px-[2vh] rounded-full ' ><HiOutlineArrowLongRight size={25} /><p>For Organizations</p></div>

@@ -95,7 +95,7 @@ const EighthPage = () => {
             };
   return (
     <div id='eight' className='h-screen w-full flex justify-center items-center ' >
-         <div className=' eighthbg h-[95%] w-[97%] rounded-3xl bg-cover bg-center flex flex-col items-center pt-[4vw] px-[3vw] gap-[2vw] ' >
+         <div className=' eighthbg bg-[url(Images/bgimg4.png)] h-[95%] w-[97%] rounded-3xl bg-cover bg-center flex flex-col items-center pt-[4vw] px-[3vw] gap-[2vw] ' >
             <div className='flex flex-col justify-center items-center gap-[2vh]' >
                 <p className=' eighthherotext text-6xl font-medium text-white uppercase ' >Frequently Asked Question</p>
                 <p className=' eighthsubtext text-lg font-light text-white ' >LuxySmile partnerships go beyond care to deliver recognition:</p>

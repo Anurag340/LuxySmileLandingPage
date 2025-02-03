@@ -9,7 +9,6 @@ import SixthPage from './Components/SixthPage/SixthPage'
 import SeventhPage from './Components/SeventhPage/SeventhPage'
 import EighthPage from './Components/EighthPage/EighthPage'
 import Footer from './Components/Footer/Footer'
-import locomotiveScroll from "locomotive-scroll";
 
 
 
