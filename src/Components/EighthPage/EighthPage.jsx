@@ -94,8 +94,11 @@ const EighthPage = () => {
                 document.getElementById('button6').classList.toggle('rotate-45'); // Rotate the button
             };
   return (
-    <div id='eight' className='h-screen w-full flex justify-center items-center ' >
-         <div className=' eighthbg bg-[url(./Images/bgimg4.png)] h-[95%] w-[97%] rounded-3xl bg-cover bg-center flex flex-col items-center pt-[4vw] px-[3vw] gap-[2vw] ' >
+    <div id='eight' className=' relative h-screen w-full flex justify-center items-center ' >
+        <div  className='z-[1] absolute h-[95%] w-[97%] rounded-3xl object-cover object-center overflow-hidden ' >
+             <img className='h-full w-full '  src="Images/bgimg4.png" alt="" />
+        </div>
+         <div className='z-[2] eighthbg  h-[95%] w-[97%] rounded-3xl flex flex-col items-center pt-[4vw] px-[3vw] gap-[2vw] ' >
             <div className='flex flex-col justify-center items-center gap-[2vh]' >
                 <p className=' eighthherotext text-6xl font-medium text-white uppercase ' >Frequently Asked Question</p>
                 <p className=' eighthsubtext text-lg font-light text-white ' >LuxySmile partnerships go beyond care to deliver recognition:</p>
