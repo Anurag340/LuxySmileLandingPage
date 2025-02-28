@@ -28,7 +28,7 @@ const SeventhPage = () => {
             <p className='seventhsubtext text-lg font-light'>Lorem ipsum dolor sit amet consectetur. Sed nisl duis egestas magna pharetra</p>
         </div>
 
-        <div ref={commentDivRef} className='commentdiv w-[60%] h-[40%] svimgdiv overflow-x-hidden flex justify-start items-center gap-[2vw]'>
+        <div ref={commentDivRef} className='commentdiv w-[60%] h-[40%] svimgdiv overflow-x-auto flex justify-start items-center gap-[2vw]'>
             <div className='slider h-full min-w-[35%] rounded-2xl flex flex-col gap-[1vh] justify-center items-start px-[2vw] py-[2vw] bg-white'>
                 <ImQuotesLeft className='quotes' size={30} />
                 <p className='slidermaintext  font-light'>Lorem ipsum dolor sit amet consectetur. Mattis laoreet pharetra scelerisque vel etiam sodales feugiat. Aliquet nisl vel neque sit lacus consequat. Arcu sagittis.</p>

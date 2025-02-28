@@ -1,4 +1,5 @@
 import React from 'react'
+import './SixthPage.css'
 
 const SixthPage = () => {
   return (

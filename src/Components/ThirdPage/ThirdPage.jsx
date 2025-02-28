@@ -24,7 +24,7 @@ const ThirdPage = () => {
         
       
   return (
-    <div className=' relative h-screen w-full flex justify-center items-center ' >
+    <div className=' thirdpage relative h-screen w-full flex justify-center items-center ' >
         <div className='z-[1] absolute h-[95%] w-[97%] rounded-3xl object-cover object-center overflow-hidden  ' >
             <img className='w-full h-full ' src="Images/bgimg2.png" alt="" />
         </div>

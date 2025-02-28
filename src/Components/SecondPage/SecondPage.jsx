@@ -47,7 +47,7 @@ const SecondPage = () => {
             </div>
         </div>
 
-        <div className='cardcontainer flex justify-start items-center gap-[3vw] w-[45%] h-[48%] overflow-hidden' ref={cardContainerRef}>
+        <div className='cardcontainer flex justify-start items-center gap-[3vw] w-[80%] h-[48%] overflow-auto overflow-y-hidden ' ref={cardContainerRef}>
           {carddata.map((card, index) => (
             <Cards data={card} key={index} />
           ))}

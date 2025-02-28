@@ -3,7 +3,7 @@ import './FirstPage.css'
 
 const FirstPage = () => {
   return (
-    <div className='h-screen w-full flex justify-center items-center relative object-cover object-center overflow-hidden ' >
+    <div className=' firstpage h-screen w-full flex justify-center items-center relative object-cover object-center overflow-hidden ' >
       <div  className=' absolute h-[95%] w-[97%] rounded-3xl fimg object-cover object-center overflow-hidden ' >
       <img className='h-full w-full '  src="Images/heroimg.jpg" alt="" />
       </div>

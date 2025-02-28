@@ -2,7 +2,10 @@
     color: var(--luxyellow);
 }
 
+
+
 @media only screen and (max-width: 600px) {
+
     .seventhmaintext{
         font-size: 20px;
         line-height: normal;
