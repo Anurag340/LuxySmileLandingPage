@@ -115,7 +115,7 @@ const EighthPage = () => {
                                 <p className='ques text-sm md:text-base'>What is on-site dental wellness?</p>
                                 <p ref={register1} className='ans hidden text-xs md:text-sm font-light mt-2' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
                             </div>
-                            <button id="button1" onClick={toggleTile1} className='text-white' ><CiCirclePlus size={20} /></button>
+                            <button id="button1" onClick={toggleTile1} className='text-white' ><CiCirclePlus size={25} /></button>
                         </div>
                         <div className='flex  mb-[1vh]' >
                             <div className='flex flex-col  w-[95%] ' >
@@ -145,7 +145,7 @@ const EighthPage = () => {
                                 <p className='ques text-sm md:text-base'>How can my organization partner with LuxySmile?</p>
                                 <p ref={register4} className='ans hidden text-xs md:text-sm font-light mt-2' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
                             </div>
-                            <button id="button4" onClick={toggleTile4} className='text-white' ><CiCirclePlus size={20} /></button>
+                            <button id="button4" onClick={toggleTile4} className='text-white' ><CiCirclePlus size={25} /></button>
                         </div>
                         <div className='flex  mb-[1vh]' >
                             <div className='flex flex-col  w-[95%] ' >

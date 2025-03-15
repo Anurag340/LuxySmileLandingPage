@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { LuMenu } from "react-icons/lu";
 import { Link, useNavigate } from 'react-router-dom';
-import './Navbar.css';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -37,8 +36,8 @@ const Navbar = () => {
       };
     }, [prevScrollPos, visible, handleScroll]);
   return (
-    <div className={`navbar fixed h-[3.5vw] w-full flex justify-between items-center bg-transparent px-[3vw] top-[5%] z-[20] transition-transform duration-300 ${visible ? 'translate-y-[1vw]' : '-translate-y-[8vw]'}`} >
-        <div className='navdiv flex w-[9.5vw] h-[80%] justify-start items-center rounded-full gap-[2%] px-[.5vh] bg-[#f7f7ed]'>
+    <div className={`navbar fixed h-[10vw] md:h-[3.5vw]  w-full flex justify-between items-center bg-transparent px-[6vw] md:px-[3vw] top-[5%] z-[20] transition-transform duration-300 ${visible ? 'translate-y-[1vw]' : '-translate-y-[8vw]'}`} >
+        <div className='navdiv flex w-[35%] md:w-[9.5vw] h-[80%] justify-start items-center rounded-full gap-[2%] px-[.5vh] bg-[#f7f7ed]'>
             <div className='navlogo object-cover object-center h-[90%] w-[30%] rounded-full overflow-hidden'>
                 <img className='w-full h-full' src="Images/logoimg.png" alt="Logo" />
             </div>
