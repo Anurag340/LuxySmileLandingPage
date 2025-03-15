@@ -94,75 +94,79 @@ const EighthPage = () => {
                 document.getElementById('button6').classList.toggle('rotate-45'); // Rotate the button
             };
   return (
-    <div id='eight' className=' relative h-screen w-full flex justify-center items-center ' >
-        <div  className='z-[1] absolute h-[95%] w-[97%] rounded-3xl object-cover object-center overflow-hidden ' >
-             <img className='h-full w-full '  src="Images/bgimg4.png" alt="" />
+    <div id='eight' className='relative min-h-screen w-full flex justify-center items-center py-8 px-4 md:p-0' >
+        <div className='relative h-[95%] w-[97%] pb-6 rounded-3xl overflow-hidden' >
+            <div className='absolute inset-0 z-[1]'>
+                <img className='h-full w-full object-cover' src="Images/bgimg4.png" alt="" />
+            </div>
+            <div className='absolute inset-0 z-[2] eighthbg'></div>
+            <div className='relative z-[3] h-full w-full flex flex-col items-center pt-[6vw] md:pt-[4vw] px-[4vw] md:px-[3vw] gap-[4vw] md:gap-[2vw]' >
+                <div className='flex flex-col justify-center items-center gap-[2vh] text-center' >
+                    <p className='eighthherotext text-3xl md:text-6xl font-medium text-white uppercase' >Frequently Asked Question</p>
+                    <p className='eighthsubtext text-base md:text-lg font-light text-white px-4' >LuxySmile partnerships go beyond care to deliver recognition:</p>
+                </div>
+
+                <div className='querycontainer w-full h-auto md:h-[35%] bg-white/10 backdrop-blur-lg text-white rounded-2xl py-[4vw] md:py-[1vw] px-[4vw] md:px-[2vw] mb-[3vh] md:mb-[1vh]' >
+                    <p className='eighthcardtext uppercase text-xl md:text-2xl' >For Individuals and</p>
+                    <p className='eighthcardtext uppercase text-xl md:text-2xl'>Families</p>
+                    <div className='flex flex-col gap-4 mt-4'>
+                        <div className='flex mb-[1vh]' >
+                            <div className='flex flex-col w-[90%] md:w-[95%]' >
+                                <p className='ques text-sm md:text-base'>What is on-site dental wellness?</p>
+                                <p ref={register1} className='ans hidden text-xs md:text-sm font-light mt-2' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
+                            </div>
+                            <button id="button1" onClick={toggleTile1} className='text-white' ><CiCirclePlus size={20} /></button>
+                        </div>
+                        <div className='flex  mb-[1vh]' >
+                            <div className='flex flex-col  w-[95%] ' >
+                                <p className='ques'>What treatments are offered on-site?</p>
+                                <p ref={register2}  className='hidden ans text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
+                            </div>
+                            <button id="button2" onClick={toggleTile2} className='text-white' ><CiCirclePlus size={25} /></button>
+
+                        </div>
+                        <div className='flex  mb-[1vh]' >
+                            <div className='flex flex-col  w-[95%] ' >
+                                <p className='ques'>Are the materials and equipment safe?</p>
+                                <p ref={register3} className='hidden ans text-sm font-light' >Absolutely. We use FDA-approved materials and state-of-the-art portable equipment to ensure safety and precision.</p>
+                            </div>
+                            <button id="button3" onClick={toggleTile3} className='text-white' ><CiCirclePlus size={25} /></button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className='querycontainer w-full h-auto md:h-[35%] bg-white/10 backdrop-blur-lg text-white rounded-2xl py-[4vw] md:py-[1vw] px-[4vw] md:px-[2vw]' >
+                    <p className='eighthcardtext uppercase text-xl md:text-2xl'>For Organizations </p>
+                    <p className='eighthcardtext uppercase text-xl md:text-2xl'>and Institutions</p>
+                    <div className='flex flex-col gap-4 mt-4'>
+                        <div className='flex mb-[1vh]' >
+                            <div className='flex flex-col w-[90%] md:w-[95%]' >
+                                <p className='ques text-sm md:text-base'>How can my organization partner with LuxySmile?</p>
+                                <p ref={register4} className='ans hidden text-xs md:text-sm font-light mt-2' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
+                            </div>
+                            <button id="button4" onClick={toggleTile4} className='text-white' ><CiCirclePlus size={20} /></button>
+                        </div>
+                        <div className='flex  mb-[1vh]' >
+                            <div className='flex flex-col  w-[95%] ' >
+                                <p className='ques'>What are the benefits of partnering with LuxySmile?</p>
+                                <p ref={register5} className='hidden ans text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
+                            </div>
+                            <button id="button5" onClick={toggleTile5} className='text-white' ><CiCirclePlus size={25} /></button>
+
+                        </div>
+                        <div className='flex  mb-[1vh]' >
+                            <div className='flex flex-col  w-[95%] ' >
+                                <p className='ques'>Is there a minimum number of participants required?</p>
+                                <p ref={register6} className='hidden ans text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
+                            </div>
+                            <button id="button6" onClick={toggleTile6} className='text-white' ><CiCirclePlus size={25} /></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-         <div className='z-[2] eighthbg  h-[95%] w-[97%] rounded-3xl flex flex-col items-center pt-[4vw] px-[3vw] gap-[2vw] ' >
-            <div className='flex flex-col justify-center items-center gap-[2vh]' >
-                <p className=' eighthherotext text-6xl font-medium text-white uppercase ' >Frequently Asked Question</p>
-                <p className=' eighthsubtext text-lg font-light text-white ' >LuxySmile partnerships go beyond care to deliver recognition:</p>
-            </div>
-
-            <div className=' querycontainer w-full h-[35%] bg-white/10 backdrop-blur-lg text-white rounded-2xl py-[1vw] px-[2vw] mb-[1vh] ' >
-                <p className=' eighthcardtext uppercase text-2xl' >For Individuals and</p>
-                <p className='eighthcardtext uppercase text-2xl'>Families</p>
-                <div className='flex mb-[1vh] ' >
-                    <div className='flex flex-col  w-[95%] ' >
-                        <p className='ques'>What is on-site dental wellness?</p>
-                        <p ref={register1} className=' ans hidden text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
-                    </div>
-                    <button id="button1" onClick={toggleTile1} className='text-white' ><CiCirclePlus  size={25} /></button>
-
-                </div>
-                <div className='flex  mb-[1vh]' >
-                    <div className='flex flex-col  w-[95%] ' >
-                        <p className='ques'>What treatments are offered on-site?</p>
-                        <p ref={register2}  className='hidden ans text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
-                    </div>
-                    <button id="button2" onClick={toggleTile2} className='text-white' ><CiCirclePlus size={25} /></button>
-
-                </div>
-                <div className='flex  mb-[1vh]' >
-                    <div className='flex flex-col  w-[95%] ' >
-                        <p className='ques'>Are the materials and equipment safe?</p>
-                        <p ref={register3} className='hidden ans text-sm font-light' >Absolutely. We use FDA-approved materials and state-of-the-art portable equipment to ensure safety and precision.</p>
-                    </div>
-                    <button id="button3" onClick={toggleTile3} className='text-white' ><CiCirclePlus size={25} /></button>
-
-                </div>
-            </div>
-
-            <div className=' querycontainer w-full h-[35%] bg-white/10 backdrop-blur-lg text-white rounded-2xl py-[1vw] px-[2vw] ' >
-                <p className=' eighthcardtext uppercase text-2xl'>For Organizations </p>
-                <p className=' eighthcardtext uppercase text-2xl'>and Institutions</p>
-                <div className='flex  mb-[1vh]' >
-                    <div className='flex flex-col  w-[95%] ' >
-                        <p className='ques' >How can my organization partner with LuxySmile?</p>
-                        <p ref={register4} className='hidden ans text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
-                    </div>
-                    <button id="button4" onClick={toggleTile4} className='text-white' ><CiCirclePlus size={25} /></button>
-
-                </div>
-                <div className='flex  mb-[1vh]' >
-                    <div className='flex flex-col  w-[95%] ' >
-                        <p className='ques'>What are the benefits of partnering with LuxySmile?</p>
-                        <p ref={register5} className='hidden ans text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
-                    </div>
-                    <button id="button5" onClick={toggleTile5} className='text-white' ><CiCirclePlus size={25} /></button>
-
-                </div>
-                <div className='flex  mb-[1vh]' >
-                    <div className='flex flex-col  w-[95%] ' >
-                        <p className='ques'>Is there a minimum number of participants required?</p>
-                        <p ref={register6} className='hidden ans text-sm font-light' >On-site dental wellness brings professional dental care directly to your location, eliminating the need for travel.</p>
-                    </div>
-                    <button id="button6" onClick={toggleTile6} className='text-white' ><CiCirclePlus size={25} /></button>
-
-                </div>
-            </div>
-
-         </div>
     </div>
   )
 }

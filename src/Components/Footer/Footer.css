@@ -4,6 +4,7 @@
     }
     .footerscdiv{
         align-items: center;
+        justify-content: center;
         width: 100%;
     }
     .footer{
@@ -35,5 +36,121 @@
         height:9vw;
         font-size: small;
         background-color: rgb(233, 233, 217);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footermaindiv {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .footerscdiv {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerscdiv > p {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .footerscdiv > div:last-child {
+        width: 100%;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .footer {
+        height: auto;
+        min-height: 100vh;
+        padding: 2rem 0;
+    }
+    .footerlinks {
+        width: 100%;
+        padding: 1rem 0;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .footerlinks > div {
+        width: auto;
+        max-width: 30%;
+        text-align: center;
+    }
+    .footertarget {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .footertarget > div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .footerimg {
+        height: 24px;
+        width: 24px;
+    }
+    .footerlogo {
+        width: 40%;
+        max-width: 180px;
+        height: 45px;
+        padding: 6px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+        background-color: rgb(233, 233, 217);
+    }
+    .footerlogo > div {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+        min-height: 32px;
+        margin: 0;
+    }
+    .footerlogo p {
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin: 0;
+        padding: 0;
+    }
+    /* Location items container */
+    .footertarget > div:has(.footerimg) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    /* Location item wrapper */
+    .footertarget > div > div {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .footerlinks {
+        gap: 2rem;
+        justify-content: space-between;
+        padding: 2rem 1rem;
+    }
+    .footerlinks > div:nth-child(3) {
+        display: none;
     }
 }

@@ -9,25 +9,45 @@ import SixthPage from './Components/SixthPage/SixthPage'
 import SeventhPage from './Components/SeventhPage/SeventhPage'
 import EighthPage from './Components/EighthPage/EighthPage'
 import Footer from './Components/Footer/Footer'
+import Faqs from './Components/FAQ/Faqs'
+import Lsps from './Components/LuxySmileProgramStructure/Lsps'
+import ExclusiveAdvantages from './Components/ExclusiveAdvantages/ExclusiveAdvantages'
+import ContactUs from './Components/ContactUs/ContactUs'
+import OralHealthCare from './Components/OralHealthCare/OralHealthCare'
+import Certificates from './Components/Certificates/Certificates'
 import { Analytics } from "@vercel/analytics/react"
+import { Routes } from 'react-router-dom'
+import { Route } from 'react-router-dom';
 
-
-
-const App = () => {
-  return (
-    <div className='overflow-x-hidden'>
+const MainContent = () => (
+  <>
     <Navbar />
     <FirstPage />
     <SecondPage />
     <ThirdPage />
     <FourthPage />
-    <FifthPage />
+    <Certificates />
     <SixthPage />
     <SeventhPage />
     <EighthPage />
     <Footer />
-  </div>
-  )
-}
+  </>
+);
+
+const App = () => {
+  return (
+    <div className='overflow-x-hidden'>
+      <Routes>
+        <Route path="/" element={<MainContent />} />
+        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/lsps" element={<Lsps />} />
+        <Route path="/exclusive-advantages" element={<ExclusiveAdvantages />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/oral-health-care" element={<OralHealthCare />} />
+      </Routes>
+      <Analytics />
+    </div>
+  );
+};
 
 export default App

@@ -14,7 +14,7 @@
     background-color: var(--luxgreen);
 }
 
-@media only screen and (max-width: 600px) {
+@media(max-width: 600px) {
     .tochange1{
         font-size: 13px;
         line-height: normal;
@@ -75,7 +75,6 @@
         padding-left: 2vw;
         padding-right: 2vw;
         height: 50%;
-        display: none;
     }
     .lowerdiv{
         height: 53%;
