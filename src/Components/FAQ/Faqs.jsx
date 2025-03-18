@@ -50,7 +50,7 @@ const Faqs = () => {
             <div className='w-[30%] h-[1px] bg-black ' ></div>
             <div className='w-[4px] h-[4px] rounded-full bg-black  ' ></div>
           <div className='w-fit px-[1vh]  h-[50%] rounded-full border mx-[6px] border-gray-600 flex justify-center items-center' >
-                <h1 className="text-xl font-bold ">Frequently asked questions</h1>
+                <h1 className="text-xs text-center md:text-xl font-bold ">Frequently asked questions</h1>
           </div>
           <div className='w-[4px] h-[4px] rounded-full bg-black  ' ></div>
           <div className='w-[30%] h-[1px] bg-black ' ></div>
