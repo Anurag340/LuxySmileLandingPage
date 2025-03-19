@@ -1,7 +1,4 @@
-.bgimg{
-    background-image:radial-gradient(29.46% 51.56% at 31.39% 37.13%, rgba(29, 60, 55, 0) 0%, rgba(29, 60, 55, 0.8) 100%);
-   
-}
+
 
 .card{
     background-color: var(--luxbg);

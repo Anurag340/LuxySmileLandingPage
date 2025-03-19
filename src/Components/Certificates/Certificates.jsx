@@ -21,7 +21,7 @@ const Certificates = () => {
             <img
               src="https://storage.googleapis.com/a1aa/image/VW5yWKQQV5hoRVW7vivsPKH7AZc2tVihg5vyI__tqso.jpg"
               alt="Award trophy on a pedestal"
-              className="w-full h-full"
+              className="w-full h-full object-cover object-top"
               height="400"
               width="1200"
             />

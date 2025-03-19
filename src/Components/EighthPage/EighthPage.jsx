@@ -95,8 +95,8 @@ const EighthPage = () => {
             };
   return (
     <div id='eight' className='relative min-h-screen w-full flex justify-center items-center py-8 px-4 md:p-0' >
-        <div className='relative h-[95%] w-[97%] pb-6 rounded-3xl overflow-hidden' >
-            <div className='absolute inset-0 z-[1]'>
+        <div className='relative h-[92%] w-[97%] pb-6 rounded-3xl overflow-hidden' >
+            <div className='absolute inset-0 z-[1] overflow-hidden object-cover object-center '>
                 <img className='h-full w-full object-cover' src="Images/bgimg4.png" alt="" />
             </div>
             <div className='absolute inset-0 z-[2] eighthbg'></div>

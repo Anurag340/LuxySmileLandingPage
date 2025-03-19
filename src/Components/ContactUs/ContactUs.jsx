@@ -6,8 +6,7 @@ const ContactUs = () => {
     email: '',
     phoneNumber: '',
     companyName: '',
-    participants: '',
-    message: ''
+    message: '' // Removed participants
   });
 
   const handleChange = (e) => {
@@ -22,7 +21,6 @@ const ContactUs = () => {
       Email: ${formData.email}\n
       Phone Number: ${formData.phoneNumber}\n
       Company Name: ${formData.companyName}\n
-      Number of Participants: ${formData.participants}\n
       Message: ${formData.message}
     `;
     window.location.href = `mailto:inquiry@luxysmile.com?subject=B2B Partnership Inquiry&body=${encodeURIComponent(emailBody)}`;
@@ -116,31 +114,16 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <label className="sr-only" htmlFor="participants">Number of participants/strength (Approx.)</label>
-            <div className="relative w-4/5 md:w-full">
-              <i className="fas fa-users absolute left-3 top-3 text-gray-500"></i>
-              <input
-                className="pl-10 py-2 w-full border border-gray-300 rounded-md"
-                id="participants"
-                placeholder="Enter the number"
-                type="text"
-                value={formData.participants}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-          <div className="flex flex-col items-center">
             <label className="sr-only" htmlFor="message">Short message (optional)</label>
-            <div className="relative w-4/5 md:w-full">
+            <div className="relative w-full md:w-4/5 flex justify-center">
               <i className="fas fa-comment-dots absolute left-3 top-3 text-gray-500"></i>
-              <input
-                className="pl-10 py-2 w-full border border-gray-300 rounded-md"
+              <textarea
+                className="pl-10 py-2 w-full h-32 border border-gray-300 rounded-md resize"
                 id="message"
                 placeholder="Enter your message here"
-                type="text"
                 value={formData.message}
                 onChange={handleChange}
-              />
+              ></textarea>
             </div>
           </div>
           <div className="col-span-1 md:col-span-2 mb-10 flex justify-center">

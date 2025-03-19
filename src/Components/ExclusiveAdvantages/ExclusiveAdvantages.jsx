@@ -10,7 +10,7 @@ const ExclusiveAdvantages = () => (
     <Navbar />
     <main className="container mt-40 mx-auto px-6">
         <div className="relative object-cover z-0 object-center overflow-hidden h-[55vh] w-full mt-[8vh] rounded-3xl" style={{ position: 'relative' }}>
-            <img className="h-full w-full z-0" src="Images/bgimg2.png" alt="" />
+            <img className="h-full w-full z-0 object-cover object-top " src="Images/bgimg2.png" alt="" />
             <div className="absolute bottom-0 right-0 bg-[var(--luxbg)] text-sm md:text-3xl tracking-wider font-bold rounded-tl-3xl z-10 text-[var(--luxgreen)] h-[20vh] w-[30vw] pl-[2vh] pt-[2vh]" >
                 <p><span className="text-[var(--luxyellow)]">Exclusive Advantages</span> for</p>
                 <p>Your Institution</p>

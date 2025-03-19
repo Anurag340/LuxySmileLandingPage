@@ -8,17 +8,9 @@
     url('Images/heroimg.jpg');
 } */
 
-.heroimg{
-    transform: scaleX(-1);
-    background:radial-gradient(29.46% 51.56% at 31.39% 67.13%, rgba(29, 60, 55, 0) 0%, rgba(29, 60, 55, 0.8) 100%);
-    
-}
-.fimg{
-    transform: scaleX(-1);
-}
 
 .herotext1{
-    transform: scaleX(-1);
+    transform: scaleX(1);
     font-family: Bricolage Grotesque;
     font-size: 69px;
     font-weight: 700;
@@ -30,7 +22,7 @@
 }
 
 .herotext2{
-    transform: scaleX(-1);
+    transform: scaleX(1);
     font-family: Bricolage Grotesque;
     font-size: 48px;
     font-weight: 400;
@@ -40,11 +32,11 @@
 }
 
 .herotext3{
-    transform: scaleX(-1);
+    transform: scaleX(1);
 
 }
 .herobutton{
-    transform: scaleX(-1);
+    transform: scaleX(1);
 }
 
 @media only screen and (max-width: 600px) {

@@ -4,8 +4,8 @@ import './FirstPage.css'
 const FirstPage = () => {
   return (
     <div className='firstpage h-screen w-full flex justify-center items-center relative object-cover object-center overflow-hidden'>
-      <div className='absolute h-[95%] w-[97%] rounded-3xl fimg object-cover object-center overflow-hidden'>
-        <img className='h-full w-full' src="Images/heroimg.jpg" alt="" />
+      <div className='absolute h-[92%] w-[97%] rounded-3xl object-cover object-center overflow-hidden'>
+        <img className='h-full w-full object-cover md:object-cover' src="Images/heroimg.png" alt="" />
       </div>
 
       <div className='heroimg h-[95%] w-[97%] rounded-3xl bg-cover bg-center flex flex-col gap-4 md:gap-[3%] justify-center items-center px-4 md:px-0'>

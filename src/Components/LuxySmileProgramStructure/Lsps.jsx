@@ -19,7 +19,7 @@ const Lsps = () => (
         We designed LuxySmile to cover every phase of dental care—from initial screening to post-treatment follow-up—underpinned by internationally benchmarked safety and quality standards.
       </p>
       <div className="h-[60vh] w-full " >
-        <img className="w-full h-full"  src="Images/lsps.png" alt="" />
+        <img className="w-full h-full object-cover"  src="Images/lsps.png" alt="" />
 
       </div>
 

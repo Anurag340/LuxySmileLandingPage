@@ -23,14 +23,14 @@ const OralHealthCare = () => {
         <img
           src="https://storage.googleapis.com/a1aa/image/MzjW4wwOW2r89a5iNDq2Auqiqa5hpgyhpYoz58weuFQ.jpg"
           alt="Dental clinic with modern equipment"
-          className="w-full h-full"
+          className="w-full h-full object-cover "
         />
         </div>
       </section>
       {/* this section */}
       <section className="mb-12 w-full">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-          Challenges in <span className="text-yellow-500">Traditional Dental Services</span>
+          Challenges in <span className="text-yellow-500">Traditional Dental</span> Services
         </h2>
         <p className="text-gray-600 mb-6">
           While dental clinics serve as the primary source of oral healthcare, they often come with multiple challenges that prevent individuals from accessing timely treatment. Some of the common challenges include:
