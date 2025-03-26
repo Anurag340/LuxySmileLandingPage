@@ -26,7 +26,7 @@ const MainContent = () => (
     <SecondPage />
     <ThirdPage />
     <FourthPage />
-    <Certificates />
+    <FifthPage />
     <SixthPage />
     <SeventhPage />
     <EighthPage />

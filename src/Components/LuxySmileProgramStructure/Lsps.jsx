@@ -15,7 +15,7 @@ const Lsps = () => (
       <h1 className="text-4xl font-bold text-gray-800 mt-8">
         The <span className="text-yellow-500">LuxySmile</span> Program Structure
       </h1>
-      <p className="text-gray-600 text-lg mx-auto w-[50%] mt-4">
+      <p className="text-gray-600 text-lg mx-auto md:w-[50%] w-[100%] mt-4">
         We designed LuxySmile to cover every phase of dental care—from initial screening to post-treatment follow-up—underpinned by internationally benchmarked safety and quality standards.
       </p>
       <div className="h-[60vh] w-full " >
